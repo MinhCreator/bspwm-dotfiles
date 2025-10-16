@@ -192,7 +192,7 @@ python3 Builder/install.py
 In the menu you need to give permission to install `dotfiles`, update bases, install `BASE_PACKAGES`. The rest of the options are up to you.
 This division of options allows you to perform only the necessary action, for example, just replace `dotfiles` or install current `DEV_PACKAGES` packages.
 
-If you have done everything correctly, you will get a ready BSPWM shell after launching.
+If you have done everything correctly, you will get a ready BSPWM shell after launching. Don't forget to enable 3D acceleration if you are working under a virtual machine.
 ```bash
 startx
 ```
