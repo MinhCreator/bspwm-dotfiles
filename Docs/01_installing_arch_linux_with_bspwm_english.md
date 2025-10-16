@@ -168,7 +168,7 @@ Before running these commands, log in as user. During the boot phase, the system
 and you will then be prompted to log in to the user by entering your username and password. After authorization, perform the following:
 
 ```bash
-sudo pacman -Sy
+sudo pacman -Syu
 sudo pacman -S xorg bspwm sxhkd xorg-xinit xterm git python3
 
 # Customize xinitrc

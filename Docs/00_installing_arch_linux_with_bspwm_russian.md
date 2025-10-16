@@ -168,7 +168,7 @@ reboot
 и в дальнейшем вам будет предложено войти в пользователя, введя логин и пароль. После авторизации выполняем следующее:
 
 ```bash
-sudo pacman -Sy
+sudo pacman -Syu
 sudo pacman -S xorg bspwm sxhkd xorg-xinit xterm git python3
 
 # Настройка xinitrc
