@@ -10,8 +10,8 @@ echo "---" | tee -a /tmp/polybar1.log /tmp/polybar2.log
 if [[ $(xrandr -q | grep 'HDMI-1-1 connected' ) ]]; then
 	polybar top_external -r >>/tmp/polybar1.log 2>&1 & disown
 	polybar top -r >>/tmp/polybar1.log 2>&1 & disown
+	echo "Polybar launched for two monitors"
 else
 	polybar top -r >>/tmp/polybar1.log 2>&1 & disown
+	echo "Polybar launched for one monitor..."
 fi
-
-echo "Bars launched..."
